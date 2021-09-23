@@ -18,7 +18,6 @@ def main():
     # process
     try:
         guess_number = int(guess_string)
-        print("Incoorect, the number was {}.".format(guess_number))
         if guess_number == answer:
             # output
             print("You guessed correctly!")
